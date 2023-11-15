@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright 2023 CNM Ingenuity, Inc.
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+  <!--  DO NOT add an app_name property when using this starter template; it is created automatically.-->
+  <!--  <string name="app_name">App Starter</string>-->
+
+  <string name="login_failure_message">Unable to sign in with provided credentials.</string>
+  <string name="sign_out">Sign out</string>
+
+  <string name="access_fine_location_explanation" tools:keep="@string/access_fine_location_explanation">This app uses location information for …</string>
+  <string name="access_coarse_location_explanation" tools:keep="@string/access_coarse_location_explanation">This app uses location information for …</string>
+
+  <string name="display_name_hint">Display Name</string>
+  <string name="namespace_hint">Namespace (base package)</string>
+  <string name="client_id_hint">Client ID</string>
+  <string name="bearer_token_hint">Bearer token</string>
+
+</resources>
